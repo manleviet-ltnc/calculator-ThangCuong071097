@@ -1,0 +1,10 @@
+C:\Users\Administrator\Documents\GitHub\calculator-ThangCuong071097\máy tính\máy tính\obj\Debug\máy tính.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\calculator-ThangCuong071097\máy tính\máy tính\obj\Debug\máy_tính.Form1.resources
+C:\Users\Administrator\Documents\GitHub\calculator-ThangCuong071097\máy tính\máy tính\obj\Debug\máy_tính.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\calculator-ThangCuong071097\máy tính\máy tính\obj\Debug\máy tính.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\GitHub\calculator-ThangCuong071097\máy tính\máy tính\obj\Debug\máy tính.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\calculator-ThangCuong071097\máy tính\máy tính\bin\Debug\máy tính.exe.config
+C:\Users\Administrator\Documents\GitHub\calculator-ThangCuong071097\máy tính\máy tính\bin\Debug\máy tính.exe
+C:\Users\Administrator\Documents\GitHub\calculator-ThangCuong071097\máy tính\máy tính\bin\Debug\máy tính.pdb
+C:\Users\Administrator\Documents\GitHub\calculator-ThangCuong071097\máy tính\máy tính\obj\Debug\máy tính.exe
+C:\Users\Administrator\Documents\GitHub\calculator-ThangCuong071097\máy tính\máy tính\obj\Debug\máy tính.pdb
