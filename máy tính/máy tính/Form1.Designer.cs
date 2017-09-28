@@ -225,6 +225,7 @@
             this.btnptram.TabIndex = 6;
             this.btnptram.Text = "%";
             this.btnptram.UseVisualStyleBackColor = true;
+            this.btnptram.Click += new System.EventHandler(this.Btnphantram_Click);
             // 
             // btncan
             // 
@@ -235,6 +236,7 @@
             this.btncan.TabIndex = 10;
             this.btncan.Text = "ⱱ";
             this.btncan.UseVisualStyleBackColor = true;
+            this.btncan.Click += new System.EventHandler(this.Btncan_Click);
             // 
             // btntc
             // 
@@ -245,6 +247,7 @@
             this.btntc.TabIndex = 14;
             this.btntc.Text = "-/+";
             this.btntc.UseVisualStyleBackColor = true;
+            this.btntc.Click += new System.EventHandler(this.Btndoidau_Click);
             // 
             // btnc
             // 
@@ -255,6 +258,7 @@
             this.btnc.TabIndex = 1;
             this.btnc.Text = "C";
             this.btnc.UseVisualStyleBackColor = true;
+            this.btnc.Click += new System.EventHandler(this.BtnNho_Click);
             // 
             // btnback
             // 
@@ -265,6 +269,7 @@
             this.btnback.TabIndex = 2;
             this.btnback.Text = "Backspace";
             this.btnback.UseVisualStyleBackColor = true;
+            this.btnback.Click += new System.EventHandler(this.BtnXoa_Click);
             // 
             // btnbang
             // 

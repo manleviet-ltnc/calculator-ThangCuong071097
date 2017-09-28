@@ -112,13 +112,66 @@ namespace máy_tính
 
                     Nhapso("" + e.KeyChar);
                     break;
-
+                case '+':
+                    btncong.PerformClick();
+                    break;
+                case '-':
+                    btntru.PerformClick();
+                    break;
+                case '*':
+                    btnnhan.PerformClick();
+                    break;
+                case '/':
+                    btnchia.PerformClick();
+                    break;
+                case '=':
+                    btnbang.PerformClick();
+                    break;
+                default:
+                    break;
             }
+        }
 
+        private void Btncan_Click(object sender, EventArgs e)
+        {
+            lblHienThi.Text = (Math.Sqrt(Double.Parse(lblHienThi.Text))).ToString();
+        }
 
+        private void Btndoidau_Click(object sender, EventArgs e)
+        {
+            lblHienThi.Text = (-1 * (double.Parse(lblHienThi.Text))).ToString();
+        }
+
+        private void Btnphantram_Click(object sender, EventArgs e)
+        {
+            lblHienThi.Text = ((double.Parse(lblHienThi.Text) / 100)).ToString();
+        }
+        private void BtnXoa_Click(object sender, EventArgs e)
+        {
+            {
+                if (lblHienThi.Text.Length > 0)
+                    lblHienThi.Text = lblHienThi.Text.Remove(lblHienThi.Text.Length - 1, 1);
+                if (lblHienThi.Text == "")
+                {
+                    lblHienThi.Text = "0";
+                }
+            }
+        }
+
+        private void BtnNho_Click(object sender, EventArgs e)
+        {
+            nho = 0;
+            lblHienThi.Text = "0";
         }
     }
 }
+
+            
+
+
+        
+    
+
 
 
 
