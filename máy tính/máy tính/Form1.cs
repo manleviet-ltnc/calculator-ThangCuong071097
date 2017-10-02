@@ -32,9 +32,14 @@ namespace máy_tính
 
         }
         private void Nhapso(string so)
+
         {
             if (isTypingNumber)
-                lblHienThi.Text = lblHienThi.Text + so;
+            {
+                if (lblHienThi.Text == "0")
+                    lblHienThi.Text = "";
+                lblHienThi.Text += so;
+            }
             else
             {
                 lblHienThi.Text = so;
@@ -44,10 +49,9 @@ namespace máy_tính
         }
         private void NhapPhepToan(object sender, EventArgs e)
         {
-
-            TinhKetQua();
-
-
+            if (nho != 0) ;
+              TinhKetQua(); 
+          
 
             Button btn = (Button)sender;
             switch (btn.Text)
@@ -162,6 +166,20 @@ namespace máy_tính
         {
             nho = 0;
             lblHienThi.Text = "0";
+        }
+
+        private void BTNCHAM_Click(object sender, EventArgs e)
+        {
+            if (lblHienThi.Text.Contains("."))
+            {
+                if (lblHienThi.Text == "0.")
+                {
+                    lblHienThi.Text = "";
+                    Nhapso("0.");
+                }
+                return;
+            }
+            lblHienThi.Text += ".";
         }
     }
 }
